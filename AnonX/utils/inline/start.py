@@ -9,13 +9,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✯𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽✯",
+                text="✯ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ✯",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯𝗛𝗲𝗹𝗽✯",
+                text="✯ 𝗛𝗲𝗹𝗽 ✯",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="👑 𝗢𝘄𝗻𝗲𝗿 👑", url=f"NISHU_OP_OFFICIAL",
+                text="👑 𝗢𝘄𝗻𝗲𝗿 👑", url=f"https://t.me/NISHU_OP_OFFICIAL",
             )
         ],
      ]
